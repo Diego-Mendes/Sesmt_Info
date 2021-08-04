@@ -1,0 +1,274 @@
+
+
+*{
+    margin:auto;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBEBED;
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: (0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #1D1B2D;
+    font-size: 4.3rem;
+
+    margin: 5rem 0 3rem 5rem;
+}
+
+
+/*form-------------------------------*/
+
+.content{
+    /* background-color: aqua; */
+    width: 30vw;
+    height: 40vh;
+    float: left;
+
+    margin-left: 5rem;
+    padding: 1rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    background-color: #97c5d55e;
+    border-radius: .2rem .6rem;
+    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.445);
+
+    /* transition: .3s; */
+}
+
+form fieldset{
+    margin: 1.8rem 1rem;
+    line-height: 4rem;
+}
+
+form fieldset input{
+    display: block;
+    margin: 0 .5rem;
+    
+    border-radius: 2rem 0 0 2rem;
+    padding: .5rem;
+}
+
+
+
+form fieldset #risco{
+    width: 6rem;
+    text-align: center;
+}
+
+form #contato{
+    position: absolute;
+    top: 39rem;
+
+    font-size: 1.5rem;
+}
+
+ .botao{
+    float: right;
+    margin-right: 15rem;
+
+    width: 8rem;
+    height: 3.5rem;
+
+    border-radius: .2rem .5rem;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.7rem;
+
+    background-color: #73AEC6;
+    color: #1D1B2D;
+
+    transition: .4s;
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: #2E4A6D;
+    color: #97C6D5;
+}
+
+/*bolas------------------------------*/
+
+.balls{
+    background-color: #2E4A6D;
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
+
+    position: relative;
+    top: 40rem;
+    right: 70rem;
+}
+
+
+.animated{
+    position: relative;
+    bottom: 50rem;
+    right: 15rem;
+    float: right;
+    height: 60rem;
+   
+}
+
+/*logo-------------*/
+
+#logo{
+    height: 45rem;
+    float: right;
+
+    position: absolute;
+    right: 30rem;
+    bottom: 10rem;
+
+}
+
+/*resultado--------------------*/
+
+#resultado{
+    position: relative;
+    display: none;
+    padding-left: 2rem;
+}
+
+#divBtn{
+  position: absolute;
+    left: 6rem; 
+    display: none;
+}
+#divBtn .botao{
+    float: left;
+    position: relative;
+    top: 6rem;
+    right: 3rem;
+    
+    
+}
+
+#resultado p{
+ 
+    /* width: 100rem; */
+    text-align: left;
+    line-height: 3.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+
+   
+}
+
+#resultado p:nth-child(2){
+    
+    padding-right: 20rem;
+    
+}
+
+#rodape{
+
+    width: 30vw;
+    float: right;
+   position: relative;
+   top: 53rem;
+   right: 18rem;
+   
+  
+}
+
+
+#rodape p{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #1D1B2D;
+}
+
+
+/*Media Querys-----------------------------------*/
+
+@media (max-width: 1500px){
+    .animated{
+        display: none;
+    }
+
+    .content{
+       float: none;
+     
+        margin-left: auto;
+        margin-right: auto;
+
+        align-items: center;
+        white-space: nowrap;
+
+        min-width: 30rem;
+
+    
+    }
+
+   
+    #resultado{
+       
+        left: 0;
+        right: 0;
+    }
+
+    #divBtn{
+       
+        right: 20rem;
+        float: left;
+        top: -1rem;
+    }
+   
+    #rodape{
+        width: 40vw;
+        top: 5rem;
+       right: 0;
+        float: none;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+
+    #divBtn{
+        bottom: 28rem;
+        left: 23rem;
+        position: relative;
+    
+}
+
+    #calcular{
+        position: relative;
+       left: 15rem;
+    }
+
+/* body{background-color: brown;} */
+}
+
+/* @media (max-width: 900px), (orientation: portrait){
+    /* body{background-color: blueviolet;} */
+  
+} */
+
