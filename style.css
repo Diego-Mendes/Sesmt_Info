@@ -128,7 +128,7 @@ form #contato{
 
 .animated{
     position: relative;
-    bottom: 50rem;
+    bottom: 45rem;
     right: 15rem;
     float: right;
     height: 60rem;
@@ -222,7 +222,7 @@ form #contato{
         align-items: center;
         white-space: nowrap;
 
-        min-width: 30rem;
+        min-width: 33rem;
 
     
     }
@@ -249,13 +249,19 @@ form #contato{
         text-align: center;
     }
     h1{
+        margin: 0;
+        padding: 2rem 0;
         text-align: center;
     }
 
+    .botao{
+        color: #EAEAEC;
+    }
+
     #divBtn{
-        bottom: 28rem;
-        left: 23rem;
-        position: relative;
+        position: absolute;
+        top: 15rem;
+        left: 27rem;
     
 }
 
@@ -264,11 +270,16 @@ form #contato{
        left: 15rem;
     }
 
+    #contato{
+        position: absolute;
+        bottom: 30rem;
+    }
+
 /* body{background-color: brown;} */
 }
 
 /* @media (max-width: 900px), (orientation: portrait){
     /* body{background-color: blueviolet;} */
   
-} */
+
 
