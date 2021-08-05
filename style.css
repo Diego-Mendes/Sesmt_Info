@@ -278,9 +278,11 @@ form #contato{
         bottom: 6rem;
     }
 
-    #contato, .botao{
-       margin: rem 0;
-    }
+       #contato,
+       .botao #calcular{
+            padding-bottom: 2rem;
+       }
+   
 
 /* body{background-color: brown;} */
 }
