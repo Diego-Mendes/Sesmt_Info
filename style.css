@@ -223,6 +223,7 @@ form #contato{
         white-space: nowrap;
 
         min-width: 33rem;
+        min-height: 40vh;
 
     
     }
