@@ -277,13 +277,12 @@ form #contato{
         position: absolute;
         bottom: 6rem;
     }
-/* 
+ 
        #contato,
        .botao #calcular{
             padding-bottom: 2rem;
-       } */
+       } 
 
-       body{background-color: aqua;}
    
 
 /* body{background-color: brown;} */
