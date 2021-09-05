@@ -397,7 +397,7 @@ function EsconderMostrar(id){
     let divResultado = document.getElementById('resultado')
     let form = document.getElementById('form')
     let resElements = document.getElementById('res')
-    let btnVoltar = document.getElementById('divBtn')
+    let btnVoltar = document.getElementById('voltar')
     let funcs = Number(document.getElementById('funcs').value) 
     let risco = Number(document.getElementById('risco').value)
 
@@ -406,14 +406,16 @@ function EsconderMostrar(id){
         
         if(funcs < 50 || risco < 1 || risco > 4 || funcs == "" || risco == ""){
         alert("Valores inseridos são inválidos")
-     }else{    
+     }
+     else{    
      divResultado.style.display = 'block'
      form.style.display = 'none'
      btnVoltar.style.display = 'block'
      
      resElements.innerHTML = ""
      
-     GetSesmt()}
+     GetSesmt()
+    }
     
      
 
